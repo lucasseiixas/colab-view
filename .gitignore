@@ -1,2 +1,11 @@
 *.ipynb_checkpoints
-**/.ipynb_checkpoints/*
+.checkpoints/
+.vscode/
+.idea/
+*.pyc
+__pycache__/
+*.log
+*.tmp
+.env
+.env.local
+.env.*
