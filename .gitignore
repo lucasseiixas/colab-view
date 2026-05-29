@@ -13,37 +13,39 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-env/
-venv/
-.venv/
-.ENV
-.venv.bak
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
+*.so
+*.egg-info/
+.eggs/
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.pytest_cache/
+htmlcov/
 .mypy_cache/
+.pytest_cache/
+.tox/
+.coverage*
+.nox/
 
 # Virtual environments
-.venv/
 venv/
+.venv/
 env/
+ENV/
+.ENV/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Build artifacts
+build/
+dist/
+*.egg
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
 
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
 # Logs
@@ -51,5 +53,6 @@ Thumbs.db
 
 # Temporary files
 *.tmp
-*.temp
+*~
+```
 ```
