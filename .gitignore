@@ -1,1 +1,2 @@
-Nothing needs to be added to .gitignore since only a Jupyter notebook file (.ipynb) was modified and no build artifacts, dependencies, or temporary files were detected in the changes.
+*.ipynb_checkpoints/
+**/.ipynb_checkpoints/*
