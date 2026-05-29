@@ -1,62 +1,80 @@
-```
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+*.ipynb_checkpoints
+**/.ipynb_checkpoints/*
 
-# Environment variables
+# Dependencies
+.venv/
+venv/
+env/
 .env
-.env.local
-*.env.*
+.env.*
+node_modules/
 
-# Python specific
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
 *.so
-*.egg-info/
-dist/
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
 *.egg
 
-# Virtual environments
-venv/
-.venv/
-env/
-ENV/
+# Logs
+*.log
 
-# IDE specific
+# Editor and IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-
 # Coverage reports
 .coverage
 htmlcov/
-coverage/
+.coverage.*
 
-# Temporary files
-*.tmp
-*.temp
-
-# Package manager cache
-node_modules/
-.npm/
-.yarn/
-.pnpm-store/
-
-# Build outputs
-target/
-.gradle/
-.mypy_cache/
+# Testing
 .pytest_cache/
-tox/
-```
+.mypy_cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
